@@ -10,7 +10,7 @@ namespace SauceDemoTests.Tests
         public void CompleteCheckoutTest()
         {
             var loginPage = new LoginPage(Driver);
-            loginPage.Login("standard_user", "secret_sauce");
+            loginPage.Login(TestData.Username, TestData.Password);
 
             var productsPage = new ProductsPage(Driver);
             productsPage.AddFirstProductToCart();

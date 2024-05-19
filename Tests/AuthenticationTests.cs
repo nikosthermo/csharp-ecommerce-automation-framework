@@ -10,7 +10,7 @@ namespace SauceDemoTests.Tests
         public void ValidLoginTest()
         {
             var loginPage = new LoginPage(Driver);
-            loginPage.Login("standard_user", "secret_sauce");
+            loginPage.Login(TestData.Username, TestData.Password);
 
             Assert.That(Driver.Url, Is.EqualTo("https://www.saucedemo.com/inventory.html"));
         }
