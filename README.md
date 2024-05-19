@@ -20,7 +20,7 @@ Before setting up the project, ensure you have the following installed:
 ## Setup Instructions
 1. **Clone the Repository:**
 - Clone the repository to your local machine using the following command:
-  ```git clone https://github.com/nikosthermo/csharp-ecommerce-automation-framework.git```
+  ```git clone https://github.com/nikosthermo/csharp-selenium-test-automation-framework.git```
 - Navigate to the project directory using the following command:
   ```cd csharp-ecommerce-automation-framework```
 2. **Install Dependencies:**
