@@ -11,6 +11,8 @@ Before setting up the project, ensure you have the following installed:
 - **`Tests/`**: Contains all test files and test data.
 - **`Base/`**: Contains Driver init and tear down setup.
 - **`Pages/`**: Contains Page Object Models for each page of the application.
+- **`TestResults/`**: Contains test execution results.
+- **`Utilities/`**: Contains helper classes and methods for test data management.
 - **`csharp-ecommerce-automation-framework.csproj`**: Contains all the dependencies and configuration for the project.
 - **`README.md`**: Contains instructions for setting up and running the framework.
 - **`.gitignore`**: Contains the files and directories that should be ignored by Git.
